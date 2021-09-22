@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Announcements from "../components/Announcements";
+import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
@@ -33,7 +33,7 @@ const ProductList = () => {
   return (
     <Container>
       <Navbar />
-      <Announcements />
+      <Announcement />
       <Title>Dresses</Title>
       <FilterContainer>
         <Filter>

@@ -10,8 +10,8 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 `;
-const Announcements = () => {
+const Announcement = () => {
   return <Container>Super deal!! Free shipping on orders above $50</Container>;
 };
 
-export default Announcements;
+export default Announcement;

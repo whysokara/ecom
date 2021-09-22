@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Announcements from "../components/Announcements";
+import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
@@ -112,7 +112,7 @@ const Product = () => {
   return (
     <Container>
       <Navbar />
-      <Announcements />
+      <Announcement />
       <Wrapper>
         <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
