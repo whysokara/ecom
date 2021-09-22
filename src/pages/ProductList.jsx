@@ -6,7 +6,9 @@ import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
 
 const Container = styled.div``;
-const Title = styled.h1``;
+const Title = styled.h1`
+  margin: 20px;
+`;
 const FilterContainer = styled.div`
   display: flex;
   justify-content: space-between;
