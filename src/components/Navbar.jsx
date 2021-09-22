@@ -51,6 +51,10 @@ const SearchContainer = styled.div`
 `;
 const Input = styled.input`
   border: none;
+
+  &:focus {
+    outline: none;
+  }
 `;
 
 const Logo = styled.h1`
